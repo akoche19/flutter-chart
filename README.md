@@ -25,7 +25,7 @@ A financial charting library for Flutter applications, offering a comprehensive 
 Add this to your project's pubspec.yaml file:
 
 ```yaml
-Windev_chart
+deriv_chart: ^0.3.7
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ Windev_chart
 Import the library with:
 
 ```dart
-import 'package:windev_chart/windev_chart.dart';
+import 'package:deriv_chart/deriv_chart.dart';
 ```
 
 ### Basic Chart
