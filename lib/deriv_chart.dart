@@ -1,6 +1,5 @@
 library deriv_chart;
 
-export 'generated/l10n.dart';
 export 'src/add_ons/add_on_config.dart';
 export 'src/add_ons/add_ons_repository.dart';
 export 'src/add_ons/drawing_tools_ui/channel/channel_drawing_tool_config.dart';
