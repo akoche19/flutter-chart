@@ -13,7 +13,7 @@ HorizontalBarrierStyle? getLastIndicatorStyle(
       color: color,
       hasLine: false,
       textStyle: TextStyle(
-        fontSize: 10,
+        fontSize: 100,
         height: 1.3,
         fontWeight: FontWeight.normal,
         color: calculateTextColor(color),
