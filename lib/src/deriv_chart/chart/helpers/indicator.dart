@@ -1,5 +1,6 @@
 import 'package:deriv_chart/src/theme/painting_styles/barrier_style.dart';
 import 'package:flutter/material.dart';
+
 import 'functions/helper_functions.dart';
 
 /// Returns the last indicator style.
@@ -15,16 +16,10 @@ HorizontalBarrierStyle? getLastIndicatorStyle(
         fontSize: 10,
         height: 1.3,
         fontWeight: FontWeight.normal,
-        color: Colors.white, // Set text color to white
+        color: calculateTextColor(color),
         fontFeatures: const <FontFeature>[FontFeature.tabularFigures()],
       ),
     );
   }
   return null;
 }
-
-/// Background colors for the theme.
-const List<Color> backgroundColors = [
-  Color(0xFF0A0A0A), // Dark background
-  Color(0xFF011A36), // Deep blue
-];
