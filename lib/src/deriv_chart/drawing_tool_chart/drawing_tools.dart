@@ -26,7 +26,7 @@ class DrawingTools {
   bool? shouldStopDrawing;
 
   /// Selected drawing tool.
-  DrawingToolConfig? selectedDrawingTool;
+  DrawingToolConfig? akoche;
 
   /// Keep the reference to the drawing tools repository.
   Repository<DrawingToolConfig>? drawingToolsRepo;
