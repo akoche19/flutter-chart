@@ -58,9 +58,9 @@ class LightThemeColors {
       .componentTextIconNormalDisabledLight; // Hex: #000000 with 24% opacity
 
   static const Color areaLineColor = LightThemeDesignTokens
-      .semanticColorSlateSolidBorderInverseLowest; // Hex: #181C25
+      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static final Color areaGradientStart = LightThemeDesignTokens
-      .semanticColorMonochromeSurfaceNormalMidLow; // Hex: #181C25 with 16% opacity
+      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static const Color areaGradientEnd = Color(
       0x00000000); // Hex: #000000 with 0% opacity //TODO(Jim): update this value with corresponding design token when available
 
@@ -76,15 +76,15 @@ class LightThemeColors {
       .componentTextIconInverseProminentLight; // Hex: #FFFFFF
 
   static final Color crosshairLineDesktopColor = LightThemeDesignTokens
-      .semanticColorMonochromeBorderNormalHighest; // Hex: #000000 with 24% opacity
+      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static const Color crosshairLineResponsiveUpperLineGradientStart = Color(
       0x00000000); // Hex: #000000 with 0% opacity //TODO(Jim): update this value with corresponding design token when available
   static final Color crosshairLineResponsiveUpperLineGradientEnd =
       LightThemeDesignTokens
-          .semanticColorMonochromeSurfaceNormalMidHigh; // Hex: #000000 with 24% opacity
+          .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static final Color crosshairLineResponsiveLowerLineGradientStart =
       LightThemeDesignTokens
-          .semanticColorMonochromeSurfaceNormalMidHigh; // Hex: #000000 with 24% opacity
+          .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static const Color crosshairLineResponsiveLowerLineGradientEnd = Color(
       0x00000000); // Hex: #000000 with 0% opacity //TODO(Jim): update this value with corresponding design token when available
 
@@ -164,9 +164,9 @@ class DarkThemeColors {
       .componentTextIconNormalDisabledDark; // Hex: #000000 with 24% opacity
 
   static const Color areaLineColor = DarkThemeDesignTokens
-      .semanticColorSlateSolidBorderInverseLowest; // Hex: #181C25
+      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static final Color areaGradientStart = DarkThemeDesignTokens
-      .semanticColorMonochromeSurfaceNormalMidLow; // Hex: #181C25 with 16% opacity
+      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static const Color areaGradientEnd = Color(
       0x00FFFFFF); // Hex: #FFFFFF with 0% opacity //TODO(Jim): update this value with corresponding design token when available
 
@@ -182,15 +182,15 @@ class DarkThemeColors {
       .componentTextIconInverseProminentDark; // Hex: #FFFFFF
 
   static final Color crosshairLineDesktopColor = DarkThemeDesignTokens
-      .semanticColorMonochromeBorderNormalHighest; // Hex: #000000 with 24% opacity
+      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static const Color crosshairLineResponsiveUpperLineGradientStart = Color(
       0x00FFFFFF); // Hex: #FFFFFF with 0% opacity //TODO(Jim): update this value with corresponding design token when available
   static final Color crosshairLineResponsiveUpperLineGradientEnd =
       DarkThemeDesignTokens
-          .semanticColorMonochromeSurfaceNormalMidHigh; // Hex: #000000 with 24% opacity
+          .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static final Color crosshairLineResponsiveLowerLineGradientStart =
       DarkThemeDesignTokens
-          .semanticColorMonochromeSurfaceNormalMidHigh; // Hex: #000000 with 24% opacity
+          .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
   static const Color crosshairLineResponsiveLowerLineGradientEnd = Color(
       0x00FFFFFF); // Hex: #FFFFFF with 0% opacity //TODO(Jim): update this value with corresponding design token when available
 
