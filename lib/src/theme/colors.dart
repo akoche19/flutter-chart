@@ -58,7 +58,7 @@ class LightThemeColors {
       .componentTextIconNormalDisabledLight; // Hex: #000000 with 24% opacity
 
   static const Color areaLineColor = LightThemeDesignTokens
-      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
+      .semanticColorSlateSolidBorderInverseLowest; // Hex: #181C25
   static final Color areaGradientStart = LightThemeDesignTokens
       .semanticColorMonochromeSurfaceNormalMidLow; // Hex: #181C25 with 16% opacity
   static const Color areaGradientEnd = Color(
@@ -164,7 +164,7 @@ class DarkThemeColors {
       .componentTextIconNormalDisabledDark; // Hex: #000000 with 24% opacity
 
   static const Color areaLineColor = DarkThemeDesignTokens
-      .semanticColorBlueSolidSurfaceInverseMid; // Changed to blue
+      .semanticColorSlateSolidBorderInverseLowest; // Hex: #181C25
   static final Color areaGradientStart = DarkThemeDesignTokens
       .semanticColorMonochromeSurfaceNormalMidLow; // Hex: #181C25 with 16% opacity
   static const Color areaGradientEnd = Color(
