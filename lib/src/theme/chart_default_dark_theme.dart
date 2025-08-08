@@ -11,19 +11,19 @@ import 'colors.dart';
 /// dark theme-related colors and styles for the chart package.
 class ChartDefaultDarkTheme extends ChartDefaultTheme {
   @override
-  Color get backgroundColor => LightThemeColors.backgroundDynamicHighest;
+  Color get backgroundColor => DarkThemeColors.backgroundDynamicHighest;
 
   @override
-  Color get areaLineColor => LightThemeColors.areaLineColor;
+  Color get areaLineColor => DarkThemeColors.areaLineColor;
 
   @override
-  Color get areaGradientStart => LightThemeColors.areaGradientStart;
+  Color get areaGradientStart => DarkThemeColors.areaGradientStart;
 
   @override
-  Color get areaGradientEnd => LightThemeColors.areaGradientEnd;
+  Color get areaGradientEnd => DarkThemeColors.areaGradientEnd;
 
   @override
-  Color get gridLineColor => LightThemeColors.gridLineColor;
+  Color get gridLineColor => DarkThemeColors.gridLineColor;
 
   @override
   Color get currentSpotContainerColor =>
